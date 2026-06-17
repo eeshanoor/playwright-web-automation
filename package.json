@@ -1,0 +1,16 @@
+{
+  "name": "playwright-web-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation by Eesha Noor",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chromium": "npx playwright test --project=chromium",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
